@@ -16,7 +16,7 @@
   --radius-sm: 10px;
   --container: 1120px;
   --narrow: 760px;
-  --header-height: 88px;
+  --header-height: 104px;
   --font-body: "DM Sans", system-ui, sans-serif;
   --font-display: "Outfit", system-ui, sans-serif;
 }
@@ -98,18 +98,18 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   min-height: var(--header-height);
-  padding-block: 0.85rem;
+  padding-block: 1.25rem;
   gap: 1rem;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  padding-block: 0.25rem;
+  padding-block: 0.65rem;
 }
 
 .brand img {
-  width: min(160px, 38vw);
+  width: min(150px, 36vw);
 }
 
 .site-nav {
