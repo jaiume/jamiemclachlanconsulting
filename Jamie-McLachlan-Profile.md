@@ -4,7 +4,7 @@
 
 **Practical software for small businesses that need systems to work properly — without turning the project into an enterprise circus.**
 
-Jamie McLachlan helps small businesses and individual clients turn messy, manual, spreadsheet-driven work into clear, reliable software systems.
+Jamie McLachlan helps small businesses and individual clients turn messy processes, disconnected systems, and manual workarounds into clear, reliable software.
 
 He brings more than 25 years of experience across software development, management consulting, product leadership, networking, IoT, and running technology businesses. That mix is unusual: Jamie can sit with a business owner, understand the real operational problem, challenge what does not make sense, and then build the system that solves it.
 
