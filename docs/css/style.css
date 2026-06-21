@@ -16,7 +16,7 @@
   --radius-sm: 10px;
   --container: 1120px;
   --narrow: 760px;
-  --header-height: 72px;
+  --header-height: 88px;
   --font-body: "DM Sans", system-ui, sans-serif;
   --font-display: "Outfit", system-ui, sans-serif;
 }
@@ -98,11 +98,18 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   min-height: var(--header-height);
+  padding-block: 0.85rem;
   gap: 1rem;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  padding-block: 0.25rem;
+}
+
 .brand img {
-  width: min(180px, 42vw);
+  width: min(160px, 38vw);
 }
 
 .site-nav {
@@ -281,6 +288,20 @@ h3 {
 .stat-label {
   color: var(--text-muted);
   font-size: 0.92rem;
+}
+
+.stat-value-roles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.5rem;
+}
+
+.stat-value-roles span:not(:last-child)::after {
+  content: "/";
+  margin-left: 0.5rem;
+  color: var(--text-muted);
+  font-weight: 400;
 }
 
 /* Sections */
